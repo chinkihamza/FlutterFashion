@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1022849498621",
+    "project_id": "flutter-fashion-64556",
+    "storage_bucket": "flutter-fashion-64556.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022849498621:android:feb22c397838999faf6d94",
+        "android_client_info": {
+          "package_name": "com.example.flutter_fashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022849498621-5o4teu8oqsqvkulr1ak35610ot8kdnnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjrB91cWGRtjH46b5rQZy1jUfVzWCQj9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022849498621-5o4teu8oqsqvkulr1ak35610ot8kdnnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

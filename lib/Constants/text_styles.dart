@@ -12,7 +12,7 @@ class Constants {
   static const boldHeading = const TextStyle(
       fontFamily: "Poppins",
       color: Colors.black,
-      fontSize: 22,
+      fontSize: 24,
       letterSpacing: -1.3,
       fontWeight: FontWeight.w300);
 
@@ -27,9 +27,16 @@ class Constants {
       color: Colors.black,
       fontSize: 18,
       fontWeight: FontWeight.w300);
+
   static const regularWhiteText = const TextStyle(
       fontFamily: "FiraSansCondensed",
       color: Colors.white,
       fontSize: 18,
       fontWeight: FontWeight.w300);
+
+  static const regularWhiteHeading = const TextStyle(
+      fontFamily: "Poppins",
+      color: Colors.white,
+      fontSize: 18,
+      fontWeight: FontWeight.w800);
 }

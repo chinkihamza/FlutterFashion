@@ -41,7 +41,7 @@ class _CustomBottomNavigatorState extends State<CustomBottomNavigator> {
             },
           ),
           CustomBottomNavigatorItem(
-            icon: Icons.search,
+            icon: Icons.code_rounded,
             selected: _selectedTab==1?true:false,
             onPressed: () {
               widget.tabPressed(1);
@@ -83,7 +83,7 @@ class CustomBottomNavigatorItem extends StatelessWidget {
   Widget build(BuildContext context) {
     bool _selected = selected;
     return GestureDetector(
-      onTap: () => onPressed,
+      onTap: () => onPressed(),
       child: Container(
         padding: EdgeInsets.symmetric(horizontal: 24, vertical: 28),
         decoration: BoxDecoration(

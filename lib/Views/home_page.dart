@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_fashion/Views/Widgets/bottom_navigator.dart';
-import 'package:flutter_fashion/Views/Widgets/page_view_tabs/home_page_tab.dart';
+import 'package:flutter_fashion/Views/Widgets/page_view_tabs/gender_detect_tab.dart';
 import 'package:flutter_fashion/Views/Widgets/page_view_tabs/saved_page_tab.dart';
-import 'package:flutter_fashion/Views/Widgets/page_view_tabs/search_page_tab.dart';
+import 'package:flutter_fashion/Views/Widgets/page_view_tabs/home_page_tab.dart';
 
 
 class HomePage extends StatefulWidget {
@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                 },
                 children: [
                   HomeTab(),
-                  SearchTab(),
+                  GenderDetect(),
                   SavedTab(),
                 ],
               ),

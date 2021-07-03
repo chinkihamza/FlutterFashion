@@ -1,0 +1,10 @@
+Dress
+Fullsleeve
+Hat
+Jacket
+Pants
+Shirt
+Shoes
+Shorts
+Skirt
+Tshirt
